@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+body {
+    background-color: #242582;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        letter-spacing: 15px;
+        text-shadow: 0 1px 0 #efefef,
+                     0 2px 0 #efefef,
+                     0 3px 0 #efefef,
+                     0 4px 0 #efefef,
+                     0 30px 5px rgba(0,0,0,1);   
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    #regels {
+        color: red;
+        outline: red 5px solid;
+    }
+
+    .note {
+        color: red;
+    }
+
+    .informatie {
+        text-shadow: none;
+        color: red;
+        letter-spacing: normal;
+    }
+
+    #tijd {
+        color: red;
+        text-size-adjust: 30px;
+    }
+
+    #button1 {
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        background-color: white;
+        color:black;
+    }

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+body {
+    background-color: #242582;
+    font-family: 'Roboto Mono', monospace;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    }
+
+#link {
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 45.6%;
+}
+
+#link:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+    color: lightblue;
+}
+
+#small-box {
+    width: 800px;
+    height: 500px;
+    background-color: green;
+    position: absolute;
+    top: 15%;
+    left: 24.6%;
+    border-radius: 6%;
+    background-image: linear-gradient(to bottom right, #2f2fa2, #f64c72);
+    box-shadow: 1px 1px 5px 5px #000567;
+}
+
+#small-box:hover {
+    transform: scale(1.01);
+    transition: 330ms ease-in-out;
+}
+
+#insta {
+    width: 30px;  
+    height: auto;  
+    position: absolute;
+    top: 92.2%;
+    left: 96%;
+}
+
+
+#linkedin {
+    width: 30px;  
+    height: auto;  
+    position: absolute;
+    top: 91.8%;
+    left: 93%;
+}
+
+#facebook{
+    width: 15px;  
+    height: auto;  
+    position: absolute;
+    top: 91.8%;
+    left: 90%;
+}
+
+#insta:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#linkedin:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#facebook:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+
+#logo {
+    position: absolute;
+    height: 50px;
+    top: 18%;
+    left: 2%;
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: right;
+    color: white;
+    margin-right: 8%;
+    margin-top: 0.2%;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#navbar {
+    position: absolute;
+    height: 9%;
+    width: 100%;
+    background-color: #000563;
+    border-bottom: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+ul:hover:after {
+    width: 100%; 
+    left: 0; 
+}
+
+#pc1 {
+    position: absolute;
+    top: 22%;
+    z-index: -1;
+    left: 77%;
+    width: 350px;  
+    height: auto; 
+}
+
+#bt1 {
+    position: absolute;
+    top: 62%;
+    left: 5%;
+    z-index: 1;
+    height: 40px;
+    width: 170px;
+    border: 2px solid red;
+    border-radius: 30px;
+    background-color: #57BE8E;
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#bt1:hover{
+    background-color: #479470;
+    transition: 330ms ease-in-out;
+}
+
+#gamea{
+    margin:100px;
+}

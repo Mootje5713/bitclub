@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.logon {
+    position: absolute;
+    height: auto;
+    top: -100%;
+    left: 2%;
+}
+
+
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: right;
+    color: white;
+    margin-right: 5.5%;
+    margin-top: 0.2%;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    right:100px;
+}
+
+#navbar {
+    position: absolute;
+    height: 9%;
+    width: 100%;
+    background-color: #000563;
+    border-bottom: 2px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+ul:hover:after {
+    width: 100%;
+    left: 0; 
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+a:hover {
+    color: turquoise;
+}
+
+.logout {
+    width: 102px;
+    height: 34px;
+    border:2px;
+    background:none;
+    position: absolute;
+    display: flex;
+    right: 150px;
+    top: 30%;
+    justify-content: center;
+    font-weight: bold;
+    display: inline;
+    float: right;
+    color: white;
+    margin-right: 350px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.logout:hover {
+    transform: scale(1.1);
+    color: turquoise;
+}
+
+.logout{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 10;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.logouthome {
+    width: 102px;
+    height: 34px;
+    border:2px;
+    background:none;
+    position: absolute;
+    display: flex;
+    right: 150px;
+    top: 30%;
+    justify-content: center;
+    font-weight: bold;
+    display: inline;
+    float: right;
+    color: white;
+    margin-right: 350px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.logouthome:hover {
+    transform: scale(1.1);
+    color: turquoise;
+}
+
+.logouthome{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    margin-top: -6px;
+}
+
+
+
+
+ 
+
+
+

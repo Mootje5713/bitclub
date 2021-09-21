@@ -1,0 +1,504 @@
+body {
+    background-color: #000563;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#home {
+    top: 15%;
+    position: absolute;
+    left: 49%;
+    background-color: #57BE8E;
+    border: 2px solid #57BE8E;
+    font-size: 9px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#reviews {
+    top: 67%;
+    position: absolute;
+    left: 59.2%;
+    background-color: #808080;
+    border: 2px solid #57BE8E;
+    font-size: 9px;
+    display: block;
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#lijn1 {
+    position: absolute;
+    left: 50.5%;
+    top: 21.6%;
+    height: 150px;
+    width: 2px;
+    background-color: #808080;
+}
+
+#lijn2 {
+    position: absolute;
+    left: 52%;
+    top: 44.5%;
+    height: 1.5px;
+    width: 278px;
+    background-color: #808080;
+}
+
+#lijn3 {
+    position: absolute;
+    left: 60.7%;
+    top: 44.5%;
+    height: 170px;
+    width: 1.5px;
+    background-color: #808080;
+}
+
+#lijn4 {
+    position: absolute;
+    left: 40%;
+    top: 44.5%;
+    height: 1.5px;
+    width: 150px;
+    background-color: #808080;
+}
+
+#lijn5 {
+    position: absolute;
+    left: 40%;
+    top: 44.5%;
+    height: 170px;
+    width: 1.8px;
+    background-color: #808080;
+}
+
+
+#minigames {
+    top: 67%;
+    position: absolute;
+    left: 38.4%;
+    background-color: #808080;
+    border: 2px solid #57BE8E;
+    font-size: 7.5px;
+    display: block;
+    height: 51.5px;
+    width: 51.5px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 0.4%;
+}
+
+#intro {
+    top: 41.5%;
+    position: absolute;
+    left: 49%;
+    background-color: #808080;
+    border: 2px solid #57BE8E;
+    font-size: 9px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#logo {
+    position: absolute;
+    height: 50px;
+    top: -15%;
+    left: 2%;
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: right;
+    color: white;
+    margin-right: 8%;
+    margin-top: 0.2%;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 330ms ease-in-out;
+}
+
+#navbar {
+    position: relative;
+    height: 9%;
+    width: 100%;
+    background-color: #000563;
+    border-bottom: 2px solid white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+#navbar2 {
+    position: relative;
+    height: 9%;
+    width: 100%;
+    background-color: #000563;
+    border-bottom: 2px solid white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}   
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+ul:hover:after {
+    width: 100%;
+    left: 0; 
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+a:hover {
+    color: turquoise;
+}
+
+#insta {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 92%;
+    left: 96%;
+}
+
+#linkedin {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 91.8%;
+    left: 92.7%;
+}
+
+#facebook{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 91.8%;
+    left: 90%;
+}
+
+#insta:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#linkedin:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#facebook:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#info {
+    top: 41.5%;
+    position: absolute;
+    left: 70%;
+    background-color: #808080;
+    border: 2px solid #57BE8E;
+    font-size: 9px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#exercises {
+    top: 25.6%;
+    position: absolute;
+    left: 32.7%;
+    background-color: #808080;
+    border: 2px solid #57BE8E;
+    font-size: 8px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    padding-left: 0.2%;
+}
+
+#lijn6 {
+    position: absolute;
+    left: 45%;
+    top: 28.6%;
+    height: 120px;
+    width: 1.8px;
+    background-color: #808080;
+}
+
+#lijn7 {
+    position: absolute;
+    left: 35.9%;
+    top: 28.6%;
+    height: 1.5px;
+    width: 140px;
+    background-color: #808080;
+}
+
+#lijn8 {
+    position: absolute;
+    left: 50.5%;
+    top: 44.5%;
+    height: 170px;
+    width: 2px;
+    background-color: #808080;
+}
+
+#locaties {
+    top: 67%;
+    position: absolute;
+    left: 49%;
+    background-color: #808080;
+    border: 2px solid #57BE8E;
+    font-size: 7.5px;
+    display: block;
+    height: 51.5px;
+    width: 51.5px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 0.4%;
+}
+
+#logo {
+    position: absolute;
+    height: auto;
+    top: -100%;
+    left: 2%;
+}
+
+#bubble {
+    position: absolute;
+    background: #46c056;
+    color: #FFFFFF;
+    font-family: Arial;
+    text-align: center;
+    width: 250px;
+    height: 160px;
+    border-radius: 10px;
+    align-items: center;
+    left: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+#bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #46c056 transparent transparent transparent;
+    bottom: -20px;
+    left: 19%;
+    margin-left: -10px;
+}
+
+#arrow1 {
+    position: absolute;
+    width: 15%;
+    top: 77%;
+    left: 43%;
+    cursor: pointer;
+}
+
+#arrow2 {
+    position: absolute;
+    width: 15%;
+    top: 77%;
+    left: 43%;
+    cursor: pointer;
+}
+
+#arrow3 {
+    position: absolute;
+    width: 15%;
+    top: 77%;
+    left: 43%;
+    cursor: pointer;
+}
+
+#arrow4 {
+    position: absolute;
+    width: 15%;
+    top: 77%;
+    left: 43%;
+    cursor: pointer;
+}
+
+#arrow5 {
+    position: absolute;
+    width: 15%;
+    top: 77%;
+    left: 43%;
+    cursor: pointer;
+}
+
+#p1 {
+    position: absolute;
+    padding-top: 4%;
+    cursor: default;
+}
+
+#character {
+    position: absolute;
+    top: 44%;
+    width: 8%;
+    left: 5%;
+}
+
+#skip {
+    position: absolute;
+    border: none;
+    background: none;
+    color: lightgrey;
+    top: 78.5%;
+    left: 70%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#skip:hover {
+    color: #808080;
+}
+
+#show {
+    position: absolute;
+    top: 88.5%;
+    left: 5%;
+    width: 4%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#box {
+    position: absolute;
+    background-color: #00468b;
+    width: 12%;
+    height: 10%;
+    top: 87%;
+    left: 4%;
+    border-radius: 8px;
+    z-index: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: default;
+}
+
+h2 {
+    position: absolute;
+    left: 53%;
+    color: white;
+}
+
+#exercises2 {
+    top: 25.6%;
+    position: absolute;
+    left: 32.7%;
+    background-color: #808080;
+    border: 2px solid #f30d0d;
+    font-size: 8px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    padding-left: 0.2%;
+}
+
+#reviews2 {
+    top: 67%;
+    position: absolute;
+    left: 59.2%;
+    background-color: #808080;
+    border: 2px solid #f30d0d;
+    font-size: 9px;
+    display: block;
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#minigames2 {
+    top: 67%;
+    position: absolute;
+    left: 38.4%;
+    background-color: #808080;
+    border: 2px solid #f30d0d;
+    font-size: 7.5px;
+    display: block;
+    height: 51.5px;
+    width: 51.5px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 0.4%;
+}
+
+ul {
+    margin: 10px;
+}

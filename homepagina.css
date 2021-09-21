@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+
+body {
+    background-color: #242582;
+    font-family: 'Roboto Mono', monospace;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    }
+
+
+#insta {
+    width: 30px;  
+    height: auto;  
+    position: absolute;
+    top: 92.2%;
+    left: 96%;
+}
+
+
+#linkedin {
+    width: 30px;  
+    height: auto;  
+    position: absolute;
+    top: 91.8%;
+    left: 93%;
+}
+
+#facebook{
+    width: 15px;  
+    height: auto;  
+    position: absolute;
+    top: 91.8%;
+    left: 90%;
+}
+
+#insta:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#linkedin:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#facebook:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#link {
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 45.6%;
+}
+
+#link:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+    color: lightblue;
+}
+
+
+
+#logo {
+    position: absolute;
+    height: 50px;
+    top: 15%;
+    left: 2%;
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: right;
+    color: white;
+    margin-right: 8%;
+    margin-top: 0.2%;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 330ms ease-in-out;
+}
+
+#navbar {
+    position: absolute;
+    height: 9%;
+    width: 100%;
+    background-color: #000563;
+    border-bottom: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+ul:hover:after {
+    width: 100%;
+    left: 0; 
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+a:hover {
+    color: turquoise;
+}
+
+
+.typewriter {
+    font-family: 'Roboto Mono', monospace;
+	display: inline-block;
+    color: white;
+    position: absolute;
+    top: 34%;
+    left: 5%;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 55px;
+    font-weight: 700;
+    border-right: 4px solid white;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+        
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: white; 
+    }
+}
+
+#log1 {
+    width: 30%;
+    position: absolute;
+    left: 64%;
+    top: 25%;
+    
+}
+
+#kast {
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+#universe {
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    z-index: 1;
+    position: absolute;
+    left: 5%;
+    top: 64%;
+    border-radius: 5px;
+    border: 0px solid rgb(85, 85, 85);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 145px;
+    font-weight: bold;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 61, 61)    ;
+}
+
+#universe:hover {
+    transform: scale(1.02);
+    transition: 330ms ease-in-out;
+    cursor: pointer;
+    background-color: #4447ff;
+    color: white;
+}
+
+#meer2 {
+    color: black;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    transition: 330ms ease-in-out;
+}
+
+#meer2:hover {
+    color: #ffffff;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    transition: 330ms ease-in-out;
+}

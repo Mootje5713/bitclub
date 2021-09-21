@@ -1,0 +1,120 @@
+body {
+    background-color:darkblue;
+    color:white;
+}
+
+.rond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+    border-bottom: 5px solid black;
+}
+
+
+#review {
+    border: solid black 1px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+#submit {
+    color: white;
+    background: black;
+    padding: 5px;
+    margin-left: 69%;
+}
+
+#p {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    position: absolute;
+    width: 100px;
+    top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#navbar {
+    position: absolute;
+    height: 9%;
+    width: 100%;
+    background-color: #000563;
+    border-bottom: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    position: absolute;
+    height: 50px;
+    top: 18%;
+    left: 2%;
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+}
+
+li {
+    display: inline;
+    float: right;
+    color: white;
+    margin-right: 8%;
+    margin-top: 0.2%;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#rvb {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color:white;
+    font-size: 15px;
+}
+
+#rvb:hover {
+    transform: scale(1.1);
+    color: turquoise;
+}
+
+#rvb2 {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color:rgb(255, 0, 0);
+    font-size: 15px;
+}
+
+.modal-header {
+    color: black;
+}
+
+.modal-body {
+    color: black;
+}
+
+.modal-footer {
+    color: red;
+}

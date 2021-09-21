@@ -1,0 +1,397 @@
+#body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#logo {
+    position: absolute;
+    height: 50px;
+    top: 18%;
+    left: 2%;
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: right;
+    color: white;
+    margin-right: 8%;
+    margin-top: 0.2%;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 330ms ease-in-out;
+}
+
+#navbar {
+    position: absolute;
+    height: 9%;
+    width: 100%;
+    background-color: #000563;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+ul:hover:after {
+    width: 100%;
+    left: 0; 
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+a:hover {
+    color: turquoise;
+}
+
+#insta {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 92%;
+    left: 96%;
+}
+
+#linkedin {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 91.8%;
+    left: 92.7%;
+}
+
+#facebook{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 91.8%;
+    left: 90%;
+}
+
+#insta:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#linkedin:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#facebook:hover {
+    transform: scale(1.1);
+    transition: 330ms ease-in-out;
+}
+
+#eerste {
+    position: absolute;
+    top: 13%;
+    left: 35%;
+}
+
+#blok1 {
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 525px;
+    top: 40%;
+    border-radius: 8px;
+    left: 1.5%;
+    color: #628395;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#exercises {
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+    color: blue;
+}
+
+#p1 {
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+#blok2 {
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 525px;
+    top: 40%;
+    border-radius: 8px;
+    left: 26%;
+    color: #628395;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#exercises2 {
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+    color: blue;
+}
+
+#p2 {
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+#blok3 {
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 525px;
+    top: 40%;
+    border-radius: 8px;
+    left: 50.5%;
+    color: #628395;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#exercises3 {
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+    color: blue;
+}
+
+#p3 {
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+#blok4 {
+    position: absolute;
+    background-color: white;
+    width: 350px;
+    height: 525px;
+    top: 40%;
+    border-radius: 8px;
+    left: 75%;
+    color: #628395;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#exercises4 {
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+    color: blue;
+}
+
+#p4 {
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    color: black;
+}
+
+h6 {
+    position: absolute;
+    top: 125%;
+    visibility: hidden;
+}
+
+#info {
+    color: turquoise;
+}
+
+#info:hover {
+    color: aqua;
+}
+
+#knop {
+    position: absolute;
+    top: 115%;
+    left: 42.5%;
+    border: none;
+    background-color: #41d691;
+    color: black;
+    height: 10%;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+#knop:hover {
+    background-color: #52a57e;
+    cursor: pointer;
+}
+
+#home:hover {
+    color: white;
+}
+
+#introp1 {
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    font-weight: bold;
+}
+
+#bubble {
+    position: absolute;
+    background: #46c056;
+    color: #FFFFFF;
+    font-family: Arial;
+    text-align: center;
+    width: 250px;
+    height: 160px;
+    border-radius: 10px;
+    align-items: center;
+    left: 40%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 11%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 20px 20px 0 0;
+    border-color: #46c056 transparent transparent transparent;
+    bottom: -20px;
+    left: 19%;
+    margin-left: -10px;
+}
+
+#arrow1 {
+    position: absolute;
+    width: 15%;
+    top: 77%;
+    left: 43%;
+    cursor: pointer;
+}
+
+#arrow2 {
+    position: absolute;
+    width: 15%;
+    top: 77%;
+    left: 43%;
+    cursor: pointer;
+}
+
+#arrow3 {
+    position: absolute;
+    width: 15%;
+    top: 77%;
+    left: 43%;
+    cursor: pointer;
+}
+
+#arrow4 {
+    position: absolute;
+    width: 15%;
+    top: 77%;
+    left: 43%;
+    cursor: pointer;
+}
+
+#arrow5 {
+    position: absolute;
+    width: 15%;
+    top: 77%;
+    left: 43%;
+    cursor: pointer;
+}
+
+#p1bubble {
+    position: absolute;
+    padding-top: 4%;
+    cursor: default;
+}
+
+#character {
+    position: absolute;
+    top: 49%;
+    width: 8%;
+    left: 40%;
+}
+
+#skip {
+    position: absolute;
+    border: none;
+    background: none;
+    color: lightgrey;
+    top: 78.5%;
+    left: 70%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#skip:hover {
+    color: #808080;
+}
+
+#show {
+    position: absolute;
+    top: 116.5%;
+    left: 5%;
+    width: 4%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#box {
+    position: absolute;
+    background-color: #00468b;
+    width: 12%;
+    height: 10%;
+    top: 115%;
+    left: 4%;
+    border-radius: 8px;
+    z-index: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: default;
+}
+
+h2 {
+    position: absolute;
+    left: 53%;
+    color: white;
+}
